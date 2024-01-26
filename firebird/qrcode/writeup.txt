@@ -1,0 +1,5 @@
+qrazybox: https://merri.cx/qrazybox/
+(or download to run locally: https://github.com/Merricx/qrazybox)
+
+New - Import From Text - select solution.txt
+Tools - Reed-Solomon Decoder - Decode
