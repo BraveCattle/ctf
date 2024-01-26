@@ -1,0 +1,29 @@
+Construct a flag that satisfies the following constraints, you should consider the words quoted in quotation marks as constraints:
+1. the flag must be at least 6 characters
+2. the flag must start with  'hkcert23'.
+3. the flag must include exactly one  '{'  and one  '}'.
+4. The length of your flag must be a prime.
+5. The digits in your flag must add up to 26.
+6. The length of your flag must not be greater than 42.
+7. Your flag must contain at least three underscores.
+8. Your flag must not contain the substring 'flag'.
+9. Your flag must fulfil the flag format.match(/^hkcert23{.*}$/)
+10. The number of digits in your flag must be a prime.
+11. The number of 1's in your flag must be thrice the number of  6 's in your flag.
+12. At most 30% of your flag are digits.
+13. Your flag must not contain any characters from 'fail'.
+14. Your flag must include at most two distinct vowels.
+15. Your flag must include five characters, not necessarily distinct, from 'mystiz'.
+16. Your flag must contain exactly 20 distinct characters.
+17. Your flag must not contain upper-case characters.
+18. Your flag must contain the substring  'y0u'.
+19. Your flag must not contain consecutive double letters.
+20. At least 40% of your flag are hexadecimal digits.
+21. Your flag must match the REGEX  '/[A-Za-z0-9]{9}/'
+22. The ASCII values of the characters in your flag must sum up to a multiple of 65.
+23. Every occurrence of  n  in your flag must immediately followed by a digit
+24. No characters in your flag can occur more than 6 times.
+25. Your flag must reach a strength of 4 in the zxcvbn password test.
+26. the flag should no longer be satisfied if all of the 'd' s in your flag are removed.
+27. the flag should still be satisfied if each of the  '3''s in your flag has been replaced by a  '@'
+

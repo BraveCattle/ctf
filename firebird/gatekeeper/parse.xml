@@ -1,0 +1,18 @@
+<dataIntegrity encryptedHmacKey="cA4h7dBOT+k2ugCPra7PPd8gbv1/K0FzymRKxhwk9vpIkQ6lsFaUNw5AFvuYwDztCqZfBr0ZRfsK+5/dQCOMcw==" 
+encryptedHmacValue="6FckjtzOzXZcjevbCATypMgDkTVqLbe3YEC3rU8b4AN8NbTtpNOP9hosuG+Gi0jbjYiH0lu6ykMp/ixSzEN5Aw=="/>
+<keyEncryptors>
+    <keyEncryptor uri="http://schemas.microsoft.com/office/2006/keyEncryptor/password">
+        <p:encryptedKey spinCount="100000"
+        saltSize="16"
+        blockSize="16"
+        keyBits="256"
+        hashSize="64"
+        cipherAlgorithm="AES"
+        cipherChaining="ChainingModeCBC"
+        hashAlgorithm="SHA512"
+        saltValue="s4k8BldvEp7XmoFBc6CWcQ==" 
+        encryptedVerifierHashInput="zNyEDzBxb/XgEzGycRrBBw==" 
+        encryptedVerifierHashValue="Qg6MT1e8a7u3H8BIVfgek0ZsWrvqKyNuRm/84OrNYD/SSx1Hb4J8CO8ek7LPh7n/WOdstMoeabLV5hLKfeP8/A==" 
+        encryptedKeyValue="yL4Y29IDSo687bdBMZPCXv+9x+xS9ELQgyKytdZK3d4="/>
+    </keyEncryptor>
+</keyEncryptors>
