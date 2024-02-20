@@ -1,0 +1,5 @@
+# https://guballa.de/vigenere-solver
+# key length: 161
+# key: nevergonnagiveyouupnevergonnaletyoudownnevergonnarunaroundanddesertyounevergonnamakeyoucrynevergonnasaygoodbyenevergonnatellalieandhurtyouihopeyouenjoyedthissong
+
+# lactf{known_plaintext_and_were_off_to_the_races}
