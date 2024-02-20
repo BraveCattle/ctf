@@ -10,6 +10,7 @@ Write up links:
 	- [stack overflow (beginCTF one_byte)](https://hackmd.io/hqG8obmpSlWNhMluGrWG9g)
 - crypto
 	- [RSA (firebird Random Secure Algorithm I)](https://hackmd.io/q0Jo76LQQtOOU1Yt4BHOLA)
+	- [RSA (lactf hOlyT)](https://hackmd.io/7JhXr9UMRtKouXBcXH1XqA)
 
 Useful links:
 - https://hackmd.io/Y9auBMw-Rj-UXXjASouJfw
