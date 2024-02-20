@@ -1,9 +1,0 @@
-firebird/backdoor/basic.id0 filter=lfs diff=lfs merge=lfs -text
-hkcert/52hz/SDRuno_20231009_134842Z_440113kHz.wav filter=lfs diff=lfs merge=lfs -text
-hkcert/52hz_dc866d3052ea3db76f9a5f4089aff8c3.zip filter=lfs diff=lfs merge=lfs -text
-real_world/long_range/486_375MHz-1MSps-1MHz.wav filter=lfs diff=lfs merge=lfs -text
-real_world/long_range/LongRange2_2bf203ac61f7a3c5f24ee3a250d8abd6.zip filter=lfs diff=lfs merge=lfs -text
-lactf/flag-finder/FlagFinderLinux.zip filter=lfs diff=lfs merge=lfs -text
-lactf/flag-finder/FlagFinderMac.zip filter=lfs diff=lfs merge=lfs -text
-lactf/flag-finder/FlagFinderWindows.zip filter=lfs diff=lfs merge=lfs -text
-lactf/rev_problems.zip filter=lfs diff=lfs merge=lfs -text
