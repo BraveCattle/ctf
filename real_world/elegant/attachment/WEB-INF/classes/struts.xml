@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.multipart.maxStringLength" value="4096"/>
+    <!--    1mb -->
+    <constant name="struts.multipart.maxSize" value="1048576"/>
+    <!--    1mb -->
+    <constant name="struts.multipart.maxFileSize" value="1048576"/>
+
+    <package name="elegant" extends="struts-default">
+        <action name="hello" class="be.more.elegant.HeaderIconAction" method="execute">
+            <result name="input">/views/header_icon/index.jsp</result>
+        </action>
+
+        <action name="upload" class="be.more.elegant.HeaderIconAction" method="doUpload">
+            <result name="success">/views/header_icon/success.jsp</result>
+            <result name="error">/views/header_icon/error.jsp</result>
+            <result name="input">/views/header_icon/error.jsp</result>
+        </action>
+
+
+    </package>
+
+    <package name="default" extends="struts-default">
+        <default-action-ref name="hello"/>
+    </package>
+
+    <package name="error" extends="struts-default">
+        <global-results>
+            <result name="error">/views/error.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error" />
+        </global-exception-mappings>
+    </package>
+
+</struts>
