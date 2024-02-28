@@ -1,0 +1,31 @@
+﻿WinHex 21.0 x86, 用户名: jeffffff
+2024/02/26  00:03:59  
+2024/02/26  00:21:56  1 / 328
+2024/02/26  00:22:38  WinHex | If you wish to paste this data as text in other Windows programs, please do not blame WinHex should the result be truncated. The chosen clipboard format is ANSI text, but the data contains at least one zero-value byte.
+
+(Some users are unfamiliar with the concept of null-terminated strings and do not recognize or understand the implications of UTF-16 and binary data etc.)
+2024/02/26  00:26:31  1 / 65,085
+2024/02/26  00:27:43   | "magpie" 未被发现。
+2024/02/26  00:31:10  2 / 65,085
+2024/02/26  00:33:31   | "magpie" 未被发现。
+2024/02/26  00:51:14  6 / 4,576
+2024/02/26  00:55:09   | "magpie" 未被发现。
+WinHex 21.0 x86, 用户名: jeffffff
+2024/02/26  12:04:27  只是试用目的。 [unregistered]
+2024/02/26  12:04:28  1 / 328
+2024/02/26  12:04:30  2 / 343
+2024/02/26  12:04:30  2 / 73,023
+2024/02/26  12:04:31  1,269 / 1,269
+2024/02/26  14:06:55   | "438" 未被发现。
+2024/02/26  14:07:04   | "1080" 未被发现。
+2024/02/26  14:21:45  
+2024/02/26  14:22:02  
+2024/02/26  14:22:49  
+2024/02/26  14:23:47  
+2024/02/26  14:23:50  "C:\Users\jeffffff\myfile\files\ctf\magpie\latent_pearl\latent_pearls.jpg" 被修改了。 现在保存吗? | 是
+2024/02/26  14:23:50  
+2024/02/26  14:23:51  "C:\Users\jeffffff\myfile\files\ctf\magpie\latent_pearl\latent_pearls.jpg" 被修改了。 现在保存吗? | 否
+2024/02/26  14:37:07   | 取消
+WinHex 21.0 x86, 用户名: jeffffff
+2024/02/28  02:07:19  1 / 11
+2024/02/28  02:07:47   | 取消
