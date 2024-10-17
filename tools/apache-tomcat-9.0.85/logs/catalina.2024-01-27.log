@@ -1,0 +1,46 @@
+27-Jan-2024 16:31:52.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+27-Jan-2024 16:31:52.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+27-Jan-2024 16:31:52.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk-18.0.1.1
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    18.0.1.1+2-6
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85
+27-Jan-2024 16:31:52.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85
+27-Jan-2024 16:31:52.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jan-2024 16:31:52.377 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jan-2024 16:31:52.377 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+27-Jan-2024 16:31:52.377 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Jan-2024 16:31:52.378 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jan-2024 16:31:52.378 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\conf\logging.properties
+27-Jan-2024 16:31:52.378 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jan-2024 16:31:52.378 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+27-Jan-2024 16:31:52.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jan-2024 16:31:52.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+27-Jan-2024 16:31:52.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85
+27-Jan-2024 16:31:52.380 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85
+27-Jan-2024 16:31:52.380 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\temp
+27-Jan-2024 16:31:52.387 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.2.39]。
+27-Jan-2024 16:31:52.387 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+27-Jan-2024 16:31:52.387 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+27-Jan-2024 16:31:52.413 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.11 19 Sep 2023]
+27-Jan-2024 16:31:52.710 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+27-Jan-2024 16:31:52.738 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[655]毫秒内初始化
+27-Jan-2024 16:31:52.794 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+27-Jan-2024 16:31:52.795 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+27-Jan-2024 16:31:52.804 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\docs]
+27-Jan-2024 16:31:53.227 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\docs]的部署已在[420]毫秒内完成
+27-Jan-2024 16:31:53.227 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\examples]
+27-Jan-2024 16:31:53.925 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\examples]的部署已在[697]毫秒内完成
+27-Jan-2024 16:31:53.925 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\host-manager]
+27-Jan-2024 16:31:53.990 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\host-manager]的部署已在[65]毫秒内完成
+27-Jan-2024 16:31:53.991 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\manager]
+27-Jan-2024 16:31:54.061 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\manager]的部署已在[69]毫秒内完成
+27-Jan-2024 16:31:54.061 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\ROOT]
+27-Jan-2024 16:31:54.104 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\ROOT]的部署已在[43]毫秒内完成
+27-Jan-2024 16:31:54.107 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+27-Jan-2024 16:31:54.195 信息 [main] org.apache.catalina.startup.Catalina.start [1455]毫秒后服务器启动
+27-Jan-2024 16:33:04.185 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\rwctf]
+27-Jan-2024 16:33:04.228 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\jeffffff\myfile\files\ctf\tools\apache-tomcat-9.0.85\webapps\rwctf]的部署已在[43]毫秒内完成
