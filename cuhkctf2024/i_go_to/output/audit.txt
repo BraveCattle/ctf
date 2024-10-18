@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Oct 13 21:27:01 2024
+Invocation: foremost Night_of_university_mall.jpg 
+Output directory: /mnt/d/myfile/files/ctf/cuhkctf2024/i_go_to/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Night_of_university_mall.jpg
+Start: Sun Oct 13 21:27:01 2024
+Length: 149 KB (153560 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     149 KB 	          0 	 
+Finish: Sun Oct 13 21:27:01 2024
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Oct 13 21:27:01 2024

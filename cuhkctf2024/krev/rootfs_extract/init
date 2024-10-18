@@ -1,0 +1,25 @@
+#!/bin/sh
+
+/bin/mount -t devtmpfs devtmpfs /dev
+mount -t proc none /proc
+mount -t sysfs none /sys
+echo 2 > /proc/sys/kernel/kptr_restrict
+echo 1 > /proc/sys/kernel/dmesg_restrict
+
+ifup eth0
+
+echo "
+  ____ _   _ _   _ _  __   ____ _____ _____ 
+ / ___| | | | | | | |/ /  / ___|_   _|  ___|
+| |   | | | | |_| | ' /  | |     | | | |_   
+| |___| |_| |  _  | . \\  | |___  | | |  _|  
+ \\____|\\___/|_| |_|_|\\_\\  \\____| |_| |_|    
+"
+
+insmod /krev.ko
+chmod 666 /dev/krev
+setsid cttyhack setuidgid 1000 sh
+
+umount /sys
+umount /proc
+poweroff -d 1 -n -f
