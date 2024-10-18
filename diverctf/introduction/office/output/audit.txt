@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Jun  8 14:24:42 2024
+Invocation: foremost mudai.odt 
+Output directory: /mnt/d/myfile/files/ctf/diverctf/introduction/office/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: mudai.odt
+Start: Sat Jun  8 14:24:42 2024
+Length: 10 KB (10491 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.sx 	      10 KB 	          0 	  (OpenOffice Doc?)
+Finish: Sat Jun  8 14:24:42 2024
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Jun  8 14:24:42 2024

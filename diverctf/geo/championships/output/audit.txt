@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Jun  8 11:02:05 2024
+Invocation: foremost championships.jpg 
+Output directory: /mnt/d/myfile/files/ctf/diverctf/championships/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: championships.jpg
+Start: Sat Jun  8 11:02:05 2024
+Length: 560 KB (573558 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat Jun  8 11:02:05 2024
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat Jun  8 11:02:06 2024
