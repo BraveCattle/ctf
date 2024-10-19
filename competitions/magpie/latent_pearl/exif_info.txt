@@ -1,0 +1,30 @@
+ExifTool Version Number         : 10.80
+File Name                       : latent_pearls.jpg
+Directory                       : .
+File Size                       : 235 kB
+File Modification Date/Time     : 2024:02:25 23:35:39+08:00
+File Access Date/Time           : 2024:02:25 23:56:41+08:00
+File Inode Change Date/Time     : 2024:02:25 23:35:59+08:00
+File Permissions                : rwxrwxrwx
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Orientation                     : Horizontal (normal)
+XMP Toolkit                     : XMP Core 6.0.0
+Artwork Title                   : magpieCTF2024 v2
+Image Number                    : 700
+Title                           : magpieCTF2024 v2
+Current IPTC Digest             : ae460110abd9e39b4f0e20887669bdf5
+Coded Character Set             : UTF8
+Application Record Version      : 2
+Object Name                     : magpieCTF2024 v2
+IPTC Digest                     : ae460110abd9e39b4f0e20887669bdf5
+Image Width                     : 1080
+Image Height                    : 1369
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
+Image Size                      : 1080x1369
+Megapixels                      : 1.5
